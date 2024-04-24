@@ -20,7 +20,7 @@ jobs:
       name: Build & push Docker image
       with:
         image: jeraydiaz/apidemo
-        tags: v2, latest
+        tags: v3, latest
         registry: registry-1.docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}

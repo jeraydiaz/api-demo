@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-    return { "description" : "Hello Caruso - version 2"}
+    return { "description" : "Hello Caruso - version 3"}
